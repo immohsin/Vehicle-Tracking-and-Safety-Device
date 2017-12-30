@@ -1,0 +1,66 @@
+<style>
+body {
+  background:  url(https://40.media.tumblr.com/1d9eae2e323d5f8b5e49f804bf481943/tumblr_n3f5uhfXiO1qgycmjo1_400.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+h2{
+  text-align:center;
+  font-size: 2em;
+}
+
+h1{
+  text-align:center;
+  color: #29ab87;
+}
+
+#CardButton{
+  position:relative;
+  top: 15px;
+
+}
+
+#card {
+  position: relative;
+  border-radius: 3%;
+  margin: 0 auto;
+  width: 330px;
+  height: auto;
+  background-color: #f8fff3;
+  padding-bottom: 17px;
+  -webkit-box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
+  box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
+  top:50px;
+}
+
+#image-container {
+  height: 175px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  margin: 0;
+  padding: 0;
+  background-image: url(http://www.animatedimages.org/data/media/67/animated-car-image-0016.gif);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.txt-body {
+  padding: 5px 40px 20px 40px;
+}
+
+
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<div id="card">
+  <div id="image-container"></div>
+  <div class="txt-body">
+      <h2><u>Car Heat Index:</u> {{ heat }}<hr> <u>Humid Index:</u> {{ humid }}</h2><hr>
+    <p>
+      <h2><u>Tracked Address:</u> {{ address }}</h2>
+    </p>
+  </div>
+
+</div>
