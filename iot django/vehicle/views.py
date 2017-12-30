@@ -7,7 +7,7 @@ from django.conf import settings
 
 from_email = settings.DEFAULT_FROM_EMAIL
 message = 'This is my test message'
-recipient_list = ['vignesh.keerthy@gmail.com','azimu728@gmail.com','msohel9444@gmail.com','srivatsa.dev@gmail.com']
+recipient_list = ['Recipient Email List']
 
 
 def home(request):
@@ -32,7 +32,7 @@ def retrive(request):
 
 def geocode(lat,long):
     try:
-        base = "http://maps.googleapis.com/maps/api/geocode/json?"
+        base = "FIreBase Url"
         params = "latlng={lat},{lon}&sensor={sen}".format(
             lat=lat,
             lon=long,
