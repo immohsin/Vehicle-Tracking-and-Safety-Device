@@ -122,15 +122,15 @@ STATIC_URL = '/static/'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'mohsinmumtaz94@gmail.com'
-EMAIL_HOST_PASSWORD = '*890405732#*121#'
+EMAIL_HOST_USER = 'Your_Email'
+EMAIL_HOST_PASSWORD = 'Your_Password'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
-DEFAULT_FROM_EMAIL = 'Mohsin Mumtaz <mohsinmumtaz94@gmail.com>'
+DEFAULT_FROM_EMAIL = 'Mohsin Mumtaz <Your_Email>'
 
 ADMINS = (
-    ('You', 'mohsinmumtaz94@gmail.com'),
+    ('You', 'Your_Email'),
 )
 
 MANAGERS = ADMINS
